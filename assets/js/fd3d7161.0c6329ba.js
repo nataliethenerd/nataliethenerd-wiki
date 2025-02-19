@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshopify_wiki=self.webpackChunkshopify_wiki||[]).push([[4303],{4663:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/nataliethenerd-wiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
