@@ -18,7 +18,7 @@ const config = {
   url: 'https://wiki.nataliethenerd.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: 'nataliethenerd-wiki',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -72,9 +72,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'NatalieTheNerd Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -82,11 +81,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'wikiSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki Intro',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/docs/category/game-boy', // Links to the category page
+                      position: 'left',
+                      label: 'Game Boy',
+          },
           {
             href: 'https://github.com/nataliethenerd',
             label: 'GitHub',
