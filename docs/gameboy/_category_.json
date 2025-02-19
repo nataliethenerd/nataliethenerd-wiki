@@ -1,8 +1,0 @@
-{
-  "label": "Game Boy",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "references by device from the Game Boy family"
-  }
-}
