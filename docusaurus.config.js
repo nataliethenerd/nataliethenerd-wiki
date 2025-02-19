@@ -91,6 +91,11 @@ const config = {
                       label: 'Game Boy',
           },
           {
+            to: '/docs/category/game-boy-carts', // Links to the category page
+                      position: 'left',
+                      label: 'Game Boy Carts',
+          },
+          {
             href: 'https://github.com/nataliethenerd',
             label: 'GitHub',
             position: 'right',

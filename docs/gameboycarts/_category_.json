@@ -1,0 +1,8 @@
+{
+  "label": "Game Boy Carts",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "references by device from the Game Boy family"
+  }
+}
