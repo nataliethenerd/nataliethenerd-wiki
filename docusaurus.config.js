@@ -95,6 +95,11 @@ const config = {
                       position: 'left',
                       label: 'Game Boy Carts',
           },
+            {
+            to: '/docs/category/other', // Links to the category page
+                      position: 'left',
+                      label: 'Other',
+          },
           {
             href: 'https://github.com/nataliethenerd',
             label: 'GitHub',
@@ -114,11 +119,11 @@ const config = {
               },
               {
                 label: 'Game Boy Carts',
-                to: '/docs/intro',
+                to: '/docs/category/game-boy-carts',
               },
               {
                 label: 'Other',
-                to: '/docs/intro',
+                to: '/docs/category/other',
               },
 
             ],
