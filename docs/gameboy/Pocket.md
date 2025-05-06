@@ -7,16 +7,16 @@ sidebar_position: 6
 Known as MGB, GBP.
 
 ### MGB LCPU 01 soldermask front
-![mgb01_soldermaskfront](https://github.com/nataliethenerd/boardscans/blob/main/MGB-LCPU-01/mgb01_soldermaskfront.png?raw=true)
+![mgb01_soldermaskfront](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/mgb01_soldermaskfront.png?v=1746549381)
 
 
 ### MGB LCPU 01 soldermask back
-![mgb01_soldermaskback](https://github.com/nataliethenerd/boardscans/blob/main/MGB-LCPU-01/mgb01_soldermaskback.png?raw=true)
+![mgb01_soldermaskback](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/mgb01_soldermaskback.png?v=1746549381)
 
 
 ### MGB LCPU 01 copper front
-![mgb01_copperfront](https://github.com/nataliethenerd/boardscans/blob/main/MGB-LCPU-01/mgb01_copperfront.png?raw=true)
+![mgb01_copperfront](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/mgb01_copperfront.png?v=1746549381)
 
 ### MGB LCPU 01 copper back
-![mgb01_copperback](https://github.com/nataliethenerd/boardscans/blob/main/MGB-LCPU-01/mgb01_copperback.png?raw=true)
+![mgb01_copperback](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/mgb01_copperback.png?v=1746549381)
 
