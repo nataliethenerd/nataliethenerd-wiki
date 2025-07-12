@@ -17,10 +17,10 @@ Documented here is CPU 06 (CPU E) and a standard CPU board. CPU 06 has a differe
 
 
 ### CGB CPU 04 copper front
-![cgb04_copperfront](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/cgb06_copperfront.png?v=1746549339)
+![cgb04_copperfront](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/cgb04_copperfront.png?v=1746549352)
 
 ### CGB CPU 04 copper back
-![cgb04_copperback](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/cgb06_copperback.png?v=1746549339)
+![cgb04_copperback](https://cdn.shopify.com/s/files/1/0650/5798/0556/files/cgb04_copperback.png?v=1746549351)
 
 # CGB CPU 06
 
