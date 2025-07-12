@@ -53,7 +53,6 @@ const config = {
   themeConfig:
     ({ metadata: [
       {name: 'keywords', content: 'gameboy, game boy, game boy schematics, gameboy schematics, gameboy scans, game boy scans, pcb scans, board scans'},
-      {name: 'twitter:card', content: 'summary_large_image'},
     ],
       navbar: {
         title: 'NatalieTheNerd Wiki',
@@ -71,8 +70,8 @@ const config = {
           { label: 'Color Scans', to: 'docs/scans/gameboyscans/colorscans' },
           { label: 'SP Scans', to: 'docs/scans/gameboyscans/spscans' },
           { label: 'Micro Scans', to: 'docs/scans/gameboyscans/microscans' },
-          { label: 'Cart Scans', to: 'docs/category/game-boy-carts' },
-          { label: 'Other Scans', to: 'docs/category/other' },
+          { label: 'Cart Scans', to: 'docs/category/game-boy-cart-scans' },
+          { label: 'Other Scans', to: 'docs/category/other-scans' },
         ],
       },
       {
@@ -94,15 +93,14 @@ const config = {
           {
             title: 'Scans',
             items: [
-              { label: 'Game Boy', to: '/docs/category/game-boy-scans' },
-              { label: 'Game Boy Carts', to: '/docs/category/game-boy-cart-scans' },
-              { label: 'Other', to: '/docs/category/other' },
+              { label: 'Game Boy Scans', to: '/docs/category/game-boy-scans' },
+              { label: 'Game Boy Carts Scans', to: '/docs/category/game-boy-cart-scans' },
             ],
           },
           {
             title: 'Device References',
             items: [
-              { label: 'Game Boy', to: 'docs/category/game-boy-references' },
+              { label: 'Game Boy References', to: 'docs/category/game-boy-references' },
             ],
           },
           {

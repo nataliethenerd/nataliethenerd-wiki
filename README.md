@@ -7,3 +7,6 @@ set GIT_USER=nataliethenerd
 npm run deploy
 
 add cname to gh-pages
+
+
+npm run start
