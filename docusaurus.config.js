@@ -84,8 +84,6 @@ const config = {
           { label: 'Color References', to: 'docs/devicereferences/gameboy/color' },
           { label: 'SP References', to: 'docs/devicereferences/gameboy/SP' },
           { label: 'Micro References', to: 'docs/devicereferences/gameboy/micro' },
-          { label: 'Cart References', to: 'docs/devicereferences/game-boy-carts' },
-          { label: 'Other References', to: 'docs/devicereferences/other' },
         ],
       },
       { href: 'https://github.com/nataliethenerd', label: 'GitHub', position: 'right' },
