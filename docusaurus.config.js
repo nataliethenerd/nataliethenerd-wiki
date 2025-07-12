@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Natalie the Nerd Wiki',
   tagline: 'Game Boy board scans, schematics, refrences and more',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   url: 'https://wiki.nataliethenerd.com',
   baseUrl: '/',
@@ -20,6 +20,8 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+
 
   presets: [
     [
@@ -49,48 +51,58 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    ({ metadata: [
+      {name: 'keywords', content: 'gameboy, game boy, game boy schematics, gameboy schematics, gameboy scans, game boy scans, pcb scans, board scans'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+    ],
       navbar: {
         title: 'NatalieTheNerd Wiki',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'NatalieTheNerdLogo',
           src: 'img/logo.svg',
         },
+         items: [
+      {
+        label: 'Scans',
+        position: 'left',
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'wikiSidebar',
-            position: 'left',
-            label: 'Wiki Intro',
-          },
-          {
-            to: '/docs/category/game-boy',
-            position: 'left',
-            label: 'Game Boy',
-          },
-          {
-            to: '/docs/category/game-boy-carts',
-            position: 'left',
-            label: 'Game Boy Carts',
-          },
-          {
-            to: '/docs/category/other',
-            position: 'left',
-            label: 'Other',
-          },
-          {
-            href: 'https://github.com/nataliethenerd',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { label: 'DMG Scans', to: 'docs/scans/gameboyscans/DMG' },
+          { label: 'Pocket Scans', to: 'docs/scans/gameboyscans/pocket' },
+          { label: 'Color Scans', to: 'docs/scans/gameboyscans/color' },
+          { label: 'SP Scans', to: 'docs/scans/gameboyscans/SP' },
+          { label: 'Micro Scans', to: 'docs/scans/gameboyscans/micro' },
+          { label: 'Cart Scans', to: 'docs/category/game-boy-carts' },
+          { label: 'Other Scans', to: 'docs/category/other' },
         ],
       },
+      {
+        label: 'Device References',
+        position: 'left',
+        items: [
+          { label: 'DMG References', to: 'docs/devicereferences/gameboy/DMG' },
+          { label: 'Pocket References', to: 'docs/devicereferences/gameboy/pocket' },
+          { label: 'Color References', to: 'docs/devicereferences/gameboy/color' },
+          { label: 'SP References', to: 'docs/devicereferences/gameboy/SP' },
+          { label: 'Micro References', to: 'docs/devicereferences/gameboy/micro' },
+          { label: 'Cart References', to: 'docs/devicereferences/game-boy-carts' },
+          { label: 'Other References', to: 'docs/devicereferences/other' },
+        ],
+      },
+      { href: 'https://github.com/nataliethenerd', label: 'GitHub', position: 'right' },
+    ],
+      },
       footer: {
-        style: 'dark',
         links: [
           {
-            title: 'Devices',
+            title: 'Scans',
+            items: [
+              { label: 'Game Boy', to: '/docs/category/game-boy' },
+              { label: 'Game Boy Carts', to: '/docs/category/game-boy-carts' },
+              { label: 'Other', to: '/docs/category/other' },
+            ],
+          },
+          {
+            title: 'Device References',
             items: [
               { label: 'Game Boy', to: '/docs/category/game-boy' },
               { label: 'Game Boy Carts', to: '/docs/category/game-boy-carts' },
@@ -128,15 +140,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-
-  // ✅ Add LightGallery Scripts and Stylesheets for image zoom
-  scripts: [
-    'https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js',
-    'https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js',
-  ],
-  stylesheets: [
-    'https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css',
-  ],
 };
 
 export default config;

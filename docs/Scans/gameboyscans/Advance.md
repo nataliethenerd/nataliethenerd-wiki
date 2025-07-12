@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 4
 ---
 
-# Game Boy Advance
+# Game Boy Advance Scans
 
 Known as AGB, GBA.
 

@@ -1,0 +1,8 @@
+{
+  "label": "Scans",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Soldermask and copper scans of various devices"
+  }
+}

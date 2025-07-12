@@ -28,3 +28,24 @@
   --ifm-color-primary-lightest: #b8187a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* Enable navbar dropdown on hover */
+.navbar__item.dropdown:hover .navbar__submenu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Optional: smooth transition */
+.navbar__submenu {
+  transition: opacity 0.2s ease;
+}
+
+.footer.footer--dark {
+    --ifm-footer-background-color: #303846;
+    --ifm-footer-color: var(--ifm-footer-link-color);
+    --ifm-footer-link-color: var(--ifm-color-secondary);
+    --ifm-footer-title-color: var(--ifm-color-white);
+
+    background-color: var(--ifm-footer-background-color);
+    color: var(--ifm-footer-color)
+}
