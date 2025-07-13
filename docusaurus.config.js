@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Natalie the Nerd Wiki',
-  tagline: 'Game Boy board scans, schematics, refrences and more',
+  tagline: 'Game Boy board scans, schematics, references and more',
   favicon: 'img/favicon.png',
 
   url: 'https://wiki.nataliethenerd.com',
