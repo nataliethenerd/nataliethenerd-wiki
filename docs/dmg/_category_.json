@@ -1,0 +1,8 @@
+{
+  "label": "DMG",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "DMG - Dot Matrix Game Boy."
+  }
+}

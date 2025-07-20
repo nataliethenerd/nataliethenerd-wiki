@@ -62,27 +62,35 @@ const config = {
         },
          items: [
       {
-        label: 'Scans',
+        label: 'Game Boy Scans',
         position: 'left',
         items: [
-          { label: 'DMG Scans', to: 'docs/scans/gameboyscans/dmgscans' },
-          { label: 'Pocket Scans', to: 'docs/scans/gameboyscans/pocketscans' },
-          { label: 'Color Scans', to: 'docs/scans/gameboyscans/colorscans' },
-          { label: 'SP Scans', to: 'docs/scans/gameboyscans/spscans' },
-          { label: 'Micro Scans', to: 'docs/scans/gameboyscans/microscans' },
-          { label: 'Cart Scans', to: 'docs/category/game-boy-cart-scans' },
-          { label: 'Other Scans', to: 'docs/category/other-scans' },
+          { label: 'DMG Scans', to: 'docs/dmg/dmgscans' },
+          { label: 'Pocket Scans', to: 'docs/gameboypocket/pocketscans' },
+          { label: 'Color Scans', to: 'docs/gameboycolor/colorscans' },
+          { label: 'Advance Scans', to: 'docs/gameboyadvance/advancescans' },
+          { label: 'Advance SP Scans', to: 'docs/gameboyadvancesp/spscans' },
+          { label: 'Micro Scans', to: 'docs/gameboymicro/microscans' },
+
         ],
       },
       {
-        label: 'Device References',
+        label: 'Game Boy References',
         position: 'left',
         items: [
-          { label: 'DMG References', to: 'docs/devicereferences/gameboy/dmgref' },
-          { label: 'Pocket References', to: 'docs/devicereferences/gameboy/pocketref' },
-          { label: 'Color References', to: 'docs/devicereferences/gameboy/colorref' },
-          { label: 'SP References', to: 'docs/devicereferences/gameboy/spref' },
-          { label: 'Micro References', to: 'docs/devicereferences/gameboy/microref' },
+          { label: 'Game Boy Color CPU pinout', to: 'docs/gameboycolor/colorcpuguide' },
+          { label: 'Game Boy Advance CPU pinout', to: 'docs/gameboyadvance/advancecpuguide' },
+          { label: 'Game Boy Color Schematic', to: 'docs/gameboycolor/colorschematic' },
+          { label: 'Game Boy Advance Schematic', to: 'docs/gameboyadvance/advanceschematic' },
+        ],
+      },
+      {
+        label: 'Other',
+        position: 'left',
+        items: [
+          { label: 'DS Lite', to: 'docs/category/ds-lite' },
+          { label: 'Game Boy Carts', to: 'docs/category/game-boy-carts' },
+          { label: 'Game Boy Advance Carts', to: 'docs/category/game-boy-advance-carts' },
         ],
       },
       { href: 'https://github.com/nataliethenerd', label: 'GitHub', position: 'right' },
@@ -91,16 +99,22 @@ const config = {
       footer: {
         links: [
           {
-            title: 'Scans',
+            title: 'Device',
             items: [
-              { label: 'Game Boy Scans', to: '/docs/category/game-boy-scans' },
-              { label: 'Game Boy Carts Scans', to: '/docs/category/game-boy-cart-scans' },
+              { label: 'DMG', to: 'docs/dmg' },
+              { label: 'Game Boy Pocket', to: 'docs/category/game-boy-pocket' },
+              { label: 'Game Boy Color', to: 'docs/category/game-boy-color' },
+              { label: 'Game Boy Advance ', to: 'docs/category/game-boy-advance' },
+              { label: 'Game Boy Advance SP', to: 'docs/category/game-boy-advance-sp' },
+              { label: 'Game Boy Micro', to: 'docs/category/game-boy-micro' },
             ],
           },
           {
-            title: 'Device References',
+            title: 'Schematics',
             items: [
-              { label: 'Game Boy References', to: 'docs/category/game-boy-references' },
+              { label: 'Game Boy Color Schematic', to: 'docs/gameboycolor/colorschematic' },
+              { label: 'Game Boy Advance Schematic', to: 'docs/gameboyadvance/advanceschematic' },
+              { label: 'DS Lite Schematic', to: 'docs/dslite/dsliteschematic' },
             ],
           },
           {

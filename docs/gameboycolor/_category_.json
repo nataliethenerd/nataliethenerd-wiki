@@ -1,0 +1,8 @@
+{
+  "label": "Game Boy Color",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Known as CGB, GBC."
+  }
+}

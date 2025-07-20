@@ -49,3 +49,11 @@
     background-color: var(--ifm-footer-background-color);
     color: var(--ifm-footer-color)
 }
+
+
+.menu__list-item .menu__link {
+  font-size: 1em;
+}
+.menu__list > .menu__list-item > .menu__link {
+  font-size: 0.8em;
+}
