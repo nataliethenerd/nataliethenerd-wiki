@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshopify_wiki=self.webpackChunkshopify_wiki||[]).push([[670],{1616:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"DMG","description":"DMG - Dot Matrix Game Boy.","slug":"/category/dmg","permalink":"/docs/category/dmg","sidebar":"wikiSidebar","navigation":{"next":{"title":"DMG Scans","permalink":"/docs/dmg/dmgscans"}}}}')}}]);
