@@ -84,6 +84,16 @@ const config = {
           { label: 'Game Boy Advance Schematic', to: 'docs/gameboyadvance/advanceschematic' },
         ],
       },
+        {
+        label: 'Game Boy Stickers',
+        position: 'left',
+        items: [
+          { label: 'Game Boy Pocket Sticker', to: 'docs/gameboypocket/pocketsticker' },
+          { label: 'Game Boy Color Sticker', to: 'docs/gameboycolor/colorsticker' },
+          { label: 'Game Boy Advance Sticker', to: 'docs/gameboyadvance/advancesticker' },
+          { label: 'Game Boy Advance SP Sticker', to: 'docs/gameboyadvancesp/spsticker' },
+        ],
+      },
       {
         label: 'Other',
         position: 'left',
@@ -101,7 +111,7 @@ const config = {
           {
             title: 'Device',
             items: [
-              { label: 'DMG', to: 'docs/dmg' },
+              { label: 'DMG', to: 'docs/category/dmg' },
               { label: 'Game Boy Pocket', to: 'docs/category/game-boy-pocket' },
               { label: 'Game Boy Color', to: 'docs/category/game-boy-color' },
               { label: 'Game Boy Advance ', to: 'docs/category/game-boy-advance' },
