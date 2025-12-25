@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: aprvn-ccovt
+created: 2025-12-23T19:18:26+11:00
