@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkntn_wiki=globalThis.webpackChunkntn_wiki||[]).push([[1e3],{1e3(e,a,i){i.d(a,{createRadarServices:()=>k.f});var k=i(7846);i(7960)}}]);
