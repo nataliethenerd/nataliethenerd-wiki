@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: Game Boy Advance
+title: Game Boy Advance SP
 keywords:
   - gameboy
   - game boy advance sp

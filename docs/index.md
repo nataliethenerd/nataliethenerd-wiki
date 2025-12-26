@@ -3,6 +3,9 @@ sidebar_position: 1
 title: Index
 slug: /
 description: Game Boy board scans, schematics, references, and more.
+config:
+  flowchart:
+    htmlLabels: false
 keywords:
   - gameboy
   - game boy
@@ -10,7 +13,9 @@ keywords:
   - game boy motherboard
   - schematics
   - pcb scans
+  
 ---
+import Mermaid from '@theme/Mermaid';
 
 # 👩‍💻 Natalie The Nerd Wiki
 
@@ -31,4 +36,8 @@ The main resources are Game Boy based, including HD scans of Game Boy motherboar
 **It will NEVER be a place to advertise products, just a bias free resource**
 
 :::
+
+
+#### Do you have any suggestions or would like to donate a board to document?
+Message me by joining my [discord](https://discord.gg/vEKqsRTvCe)
 

@@ -72,7 +72,7 @@ Made by me, using vectors from wikipedia and adapting free use fonts.
 
 The Game Boy Pocket back label is roughly 54mm wide.
 
-[![Game Boy Pocket sticker back label](/assets/gbpocketsticker.svg)](/assets/gbpocketsticker.svg)
+[![Game Boy Pocket sticker back label](/assets/gbclabel.svg)](/assets/gbclabel.svg)
 
 
 
