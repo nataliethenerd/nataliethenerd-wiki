@@ -17,6 +17,8 @@ import TabItem from '@theme/TabItem';
 
 # Game Boy Pocket
 
+### MGB Pinout
+[![DMG CPU Pinout](/assets/mgbcpu.png)](/assets/mgbcpu.png)
 
 ### Scans
 Scans are from MGB-LCPU-01

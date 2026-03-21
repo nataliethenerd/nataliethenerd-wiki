@@ -16,6 +16,8 @@ import TabItem from '@theme/TabItem';
 
 # DMG
 
+### DMG Pinout
+[![DMG CPU Pinout](/assets/dmgcpu.png)](/assets/dmgcpu.png)
 
 ### DMG Scans
 Scans are from DMG-CPU-06

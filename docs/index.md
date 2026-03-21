@@ -22,7 +22,7 @@ import Mermaid from '@theme/Mermaid';
 
 
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nataliethenerd/nataliethenerd-wiki?style=flat-square&label=last%20update" />
-<img alt="Board Scan Repo" src="https://img.shields.io/badge/Board%20Scan%20Repo-View%20on%20GitHub-2ea44f?style=flat-square&logo=github" />
+<a href="https://github.com/nataliethenerd/boardscans"><img alt="Board Scan Repo" src="https://img.shields.io/badge/Board%20Scan%20Repo-View%20on%20GitHub-2ea44f?style=flat-square&logo=github" /></a>
 
 
 
@@ -37,6 +37,9 @@ The main resources are Game Boy based, including HD scans of Game Boy motherboar
 
 :::
 
+
+#### Update log
+- March 26: added CPU pinout diagram for DMG and Pocket.
 
 #### Do you have any suggestions or would like to donate a board to document?
 Message me by joining my [discord](https://discord.gg/vEKqsRTvCe)
