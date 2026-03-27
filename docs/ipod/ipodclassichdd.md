@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="soldermask front" label="Soldermask Front" default>
-    [![820-1975-A Scan Front](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexfront.png.png)](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexfront.png.png)
+    [![820-1975-A Scan Front](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexfront.png)](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexfront.png)
 
   </TabItem>
   <TabItem value="soldermask back" label="Soldermask Back">
-    [![820-1975-A Scan Back](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexback.png.png)](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexback.png.png)
+    [![820-1975-A Scan Back](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexback.png)](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/APPLE-820-1975-A/8201975-A_HDDflexback.png)
 
   </TabItem>
 
