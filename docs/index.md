@@ -39,7 +39,7 @@ The main resources are Game Boy based, including HD scans of Game Boy motherboar
 
 
 #### Update log
-- March 26: added CPU pinout diagram for DMG and Pocket.
+- March 26: added CPU pinout diagram for DMG and Pocket, iPod Classic 5th Gen scans
 
 #### Do you have any suggestions or would like to donate a board to document?
 Message me by joining my [discord](https://discord.gg/vEKqsRTvCe)
