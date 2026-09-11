@@ -17,7 +17,7 @@ import TabItem from '@theme/TabItem';
 ### Scans
 Scans are from USG-CPU-10. This board consists of 6 layers.
 *click the image to see it full size*
-#### AGB-CPU-01
+#### USG-CPU-10
 <Tabs>
   <TabItem value="soldermask front" label="Soldermask Front" default>
     [![USG10_soldermaskfront](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/USG-CPU-10/usg10_soldermaskfront.png)](https://raw.githubusercontent.com/nataliethenerd/boardscans/refs/heads/main/USG-CPU-10/usg10_soldermaskfront.png)
